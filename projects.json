@@ -1,0 +1,136 @@
+[{
+        "category": "laravel",
+        "img": "img/portfolio/1.png",
+        "title": "STEG Web Application",
+        "description": "<p>This is a Web Application \"Loi-Cadre\" which ensures the qualitative and quantitative optimization of the workforce.</p>",
+        "date_Created": "12 June 2022",
+        "technologies": "Laravel, PHP, Javascript, Jetstream, Livewire, MySQL.",
+        "role": "Laravel",
+        "live": "https://steg.ml/?i=1",
+        "code": "-",
+        "link_Name": "STEG Web Application"
+    },
+    {
+        "category": "webdeveloppement",
+        "img": "img/portfolio/5.png",
+        "title": "Photography website",
+        "description": "<p>This is a Photography website that showcase amazing photos.</p>",
+        "date_Created": "21 Dec 2021",
+        "technologies": "HTML, CSS, Javascript, Jquery, Bootstrap",
+        "role": "Web Developpement",
+        "live": "https://github.com/mkh-dev/Photography-Website",
+        "code": "https://github.com/mkh-dev/Photography-Website",
+        "link_Name": "Link"
+    }, {
+        "category": "webdeveloppement",
+        "img": "img/portfolio/10.png",
+        "title": "Minimalistic Portfolio Version 1",
+        "description": "<p>This is a minimalistic black and white portfolio and its fully Responsive.</p>",
+        "date_Created": "6 Feb 2021",
+        "technologies": "HTML, CSS, Javascript",
+        "role": "Web Developpement",
+        "live": "https://github.com/mkh-dev/Minimalistic-Portfolio-Version-1",
+        "code": "https://github.com/mkh-dev/Minimalistic-Portfolio-Version-1",
+        "link_Name": "Link"
+    }, {
+        "category": "webdeveloppement",
+        "img": "img/portfolio/2.png",
+        "title": "Minimalistic Portfolio Version 2",
+        "description": "<p>This is a minimalistic portfolio, it’s suitable for Web Designer & Developer, Graphic Designer, Photographer and Freelancers which need a professional way to showcase their projects and services with 100% super responsive experience.</p>",
+        "date_Created": "12 May 2022",
+        "technologies": "HTML, CSS, Javascript",
+        "role": "Web Developpement",
+        "live": "https://github.com/mkh-dev/Minimalistic-Portfolio-Version-2",
+        "code": "https://github.com/mkh-dev/Minimalistic-Portfolio-Version-2",
+        "link_Name": "Link"
+    },{
+        "category": "webdeveloppement",
+        "img": "img/portfolio/17.jpg",
+        "title": "Evento Web Application Version",
+        "description": "<p>The web application version of the platform offers a versatile and accessible solution for event organizers. It combines the functionalities of the desktop and mobile versions, providing a seamless user experience across different devices. Organizers can create, promote, and manage events with ease, utilizing the platform's robust features and responsive design.</p>",
+        "date_Created": "14 May 2023",
+        "technologies": "Symfony, PHP, Javascript, Bootstrap",
+        "role": "Web Developpement",
+        "live": "https://github.com/mkh-dev/Symfony-Web-PIDev-3A4",
+        "code": "https://github.com/mkh-dev/Symfony-Web-PIDev-3A4",
+        "link_Name": "Link"
+    }, {
+        "category": "powerbi",
+        "img": "img/portfolio/3.png",
+        "title": "Power BI Dashboard",
+        "description": "<p>Analysis and visualization of factory production data with Power BI</p>",
+        "date_Created": "9 Mar 2021",
+        "technologies": "Power BI",
+        "role": "Power BI",
+        "live": "https://github.com/mkh-dev/Power-BI-Dashboard",
+        "code": "https://github.com/mkh-dev/Power-BI-Dashboard",
+        "link_Name": "Link"
+    }, {
+        "category": "java",
+        "img": "img/portfolio/06.png",
+        "title": "Student Management Application",
+        "description": "<p>Application developed for teachers in order to make it easier for them to assign a grade. </p>",
+        "date_Created": "6 Dec 2020",
+        "technologies": "Java",
+        "role": "Java",
+        "live": "https://github.com/mkh-dev/Student-Management-Application",
+        "code": "https://github.com/mkh-dev/Student-Management-Application",
+        "link_Name": "Link"
+    },{
+        "category": "java",
+        "img": "img/portfolio/15.jpg",
+        "title": "Evento Desktop Version",
+        "description": "<p>The desktop version of the platform provides organizers with a comprehensive toolkit to create, promote, and manage events of all sizes. It offers a user-friendly interface, powerful event management features, and seamless integration with other desktop applications.</p>",
+        "date_Created": "28 Feb 2023",
+        "technologies": "Java, JavaFX",
+        "role": "Java",
+        "live": "https://github.com/mkh-dev/InfinityPIDev-JavaFX-Desktop-3A4",
+        "code": "https://github.com/mkh-dev/InfinityPIDev-JavaFX-Desktop-3A4",
+        "link_Name": "Link"
+    }, {
+        "category": "mobile",
+        "img": "img/portfolio/4.png",
+        "title": "Simple and Scientific Calculator",
+        "description": "<p>This is a simple and scientific calculator which can perform basic arithmetic operations like addition, subtraction, multiplication, or division depending upon the user input.</p>",
+        "date_Created": "24 Nov 2021",
+        "technologies": "Android",
+        "role": "Mobile",
+        "live": "https://github.com/mkh-dev/Scientific-Calculator",
+        "code": "https://github.com/mkh-dev/Scientific-Calculator",
+        "link_Name": "Link"
+    }, 
+    {
+        "category": "mobile",
+        "img": "img/portfolio/16.jpg",
+        "title": "Evento Mobile Version",
+        "description": "<p>The mobile version of the platform allows organizers to access and manage their events on the go. With a responsive design and intuitive navigation, it enables event creation, promotion, and management from any mobile device, ensuring convenience and flexibility for organizers.</p>",
+        "date_Created": "24 May 2023",
+        "technologies": "Codename One",
+        "role": "Mobile",
+        "live": "https://github.com/mkh-dev/CodeNameOne-Mobile-PIDev-3A4",
+        "code": "https://github.com/mkh-dev/CodeNameOne-Mobile-PIDev-3A4",
+        "link_Name": "Link"
+    },{
+        "category": "ml",
+        "img": "img/portfolio/7.png",
+        "title": "Examples of Linear Regression and K-Means clustering",
+        "description": "<p>This is 3 examples of linear Regression and Unsupervised learning algorithm using K-Means clustering</p>",
+        "date_Created": "15 Dec 2021",
+        "technologies": "NumPy, Pandas, Matplotlib, Scikit-Learn, Jupyter",
+        "role": "Machine Learning",
+        "live": "https://github.com/mkh-dev/Linear-Regression-And-K-Means-Clustering",
+        "code": "https://github.com/mkh-dev/Linear-Regression-And-K-Means-Clustering",
+        "link_Name": "Link"
+    }, {
+        "category": "cybersecurity",
+        "img": "img/portfolio/8.png",
+        "title": "Caesar Cipher",
+        "description": "<p>Caesar Cipher is one of the oldest encryption technique. In that application you will be able to encrypt text.</p>",
+        "date_Created": "22 Jan 2022",
+        "technologies": "Python, Tkinter",
+        "role": "Cybersecurity",
+        "live": "https://github.com/mkh-dev/Caesar-Cipher",
+        "code": "https://github.com/mkh-dev/Caesar-Cipher",
+        "link_Name": "Link"
+    }
+]

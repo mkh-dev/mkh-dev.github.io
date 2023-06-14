@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Malek Khelil — Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="I'am ahmed farag, Frontend Developer ,This is my portfolio" />
+    <meta name="keywords"
+        content="Profile, Portfolio, html, css, javascript, jquery, bootstrap, sass, responsive design, front-end" />
+    <meta name="theme-color" content="#1b1b22" />
+    <meta property="og:title" content="My Resume" />
+    <link rel="shortcut icon" href="img/logo.png" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/style_hidden.css"/>
+    <link rel="stylesheet" class="js-glass-style" href="css/glass_hidden.css" disabled />
+</head>
+
+<body class="js-light-style">
+    <div class="main-wrapper">
+        <!-- Start Page Loading -->
+        <div class="page-loader">
+            <div class="page-loader-inner">
+                <img src="img/loading.png"/>
+                <div class="circle"></div>
+            </div>
+        </div>
+        <!-- End Page Loading -->
+
+        <!-- Start Color Switcher -->
+        <div class="color-switcher">
+            <div class="switcher-btn">
+                <i class="fa fa-cog"></i>
+            </div>
+            <div class="setting-option border-b">
+                <h3>Select Color</h3>
+                <div class="theme-buttons-conatiners">
+                    <span class="theme-buttons active" data-color="#673ab7" style="background: #673ab7"></span>
+                    <span class="theme-buttons" data-color="#e74c3c" style="background: #e74c3c"></span>
+                    <span class="theme-buttons" data-color="#009ec6" style="background: #009ec6"></span>
+                    <span class="theme-buttons" data-color="#27ae60" style="background: #27ae60"></span>
+                </div>
+            </div>
+
+            <div class="setting-option">
+                <h3>Glassmorphism</h3>
+                <div class="custom">
+                    <div class="custom-toggle glass-toggle">
+                        <div class="custom-btn"></div>
+                    </div>
+                    <div class="custom-text">Glass Effect</div>
+                </div>
+            </div>
+            <div class="setting-option">
+                <h3>Light & Dark</h3>
+                <div class="custom light">
+                    <div class="custom-toggle light-toggle">
+                        <div class="custom-btn"></div>
+                    </div>
+                    <div class="custom-text">Light Mode</div>
+                </div>
+            </div>
+        </div>
+        <!-- End Color Switcher -->
+
+        <!-- Start Bg Animation Effect -->
+        <div class="bg-animation-effect"></div>
+        <!-- ../End Bg Animation Effect -->
+
+        <!-- Start Overlay Effect -->
+        <div class="overlay-effect">
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+        </div>
+        <!-- End Overlay Effect -->
+
+        <!-- Start Header -->
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button type="button" title="toggle" class="nav-toggler">
+                        <span></span>
+                    </button>
+                    <!-- Start Nav -->
+                    <nav class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li>
+                                    <a href="#about" class="nav-item link-item">about</a>
+                                </li>
+                                <li>
+                                    <a href="#portfolio" class="nav-item link-item">portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="#skills" class="nav-item link-item">skills</a>
+                                </li>
+                                <li>
+                                    <a href="#education" class="nav-item link-item">education</a>
+                                </li>
+                                <li>
+                                    <a href="#contact" class="nav-item link-item">contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- End Nav -->
+                </div>
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Start About section -->
+        <section class="about-section active" id="about">
+            <div class="container">
+                <div class="row min-vh-100">
+                    <div class="about__content">
+                        <div class="profile">
+                            <img src="img/photo_bg.png" alt="profile-img" />
+                            <p class="preview_img" title="Preview Full Img">
+                                <i class="fas fa-user"></i>
+                            </p>
+                        </div>
+
+                        <div class="about__content-desc">
+                            <h1 class="content_title">Hi <span class="wave">👋</span> I'm Malek Khelil</h1>
+                            <p class="content_desc">
+                                I am a student at Private School of Engineering and Technology pursuing Engineering in Computer Science. I am an avid learner with a great passion for technology and love to explore new domains and build innovative solutions for existing problems. <br/> <br/><b>Check my latest work on the
+                                <a href="#portfolio" class="link-item">portfolio page</a>.</b>
+                            </p>
+
+                            <div class="about-btns">
+                                <a href="cv/cv.pdf" class="btn" download>
+                                    Download Resume <i class="fas fa-download mx-3"></i>
+                                </a>
+                                <a href="#contact" class="link-item btn">
+                                    Hire Me <i class="fas fa-paper-plane mx-3"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ../End About section -->
+
+        <!-- Start Portfolio Section -->
+        <section class="portfolio-section sec-padding" id="portfolio">
+            <div class="container">
+                <div class="row jc-center">
+                    <div class="section-title">
+                        <h2>recent works</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="portfolio-filter">
+                        <button type="button" title="Show All Works" class="portfolio-filter-btn active"
+                            data-filter="all">
+                            all
+                        </button>
+                        <button type="button" title="Filter by Web Developpement" class="portfolio-filter-btn" data-filter="webdeveloppement">
+                            Web Developpement
+                        </button>
+                        <button type="button" title="Filter by Laravel" class="portfolio-filter-btn"
+                        data-filter="laravel">
+                        laravel
+                    </button>
+                        <button type="button" title="Filter by Power BI" class="portfolio-filter-btn"
+                            data-filter="powerbi">
+                            Power BI
+                        </button>
+                        <button type="button" title="Filter by Java" class="portfolio-filter-btn"
+                            data-filter="java">
+                            Java
+                        </button>
+                        <button type="button" title="Filter by Mobile" class="portfolio-filter-btn"
+                            data-filter="mobile">
+                            Mobile
+                        </button>
+                        <button type="button" title="Filter by ML" class="portfolio-filter-btn"
+                        data-filter="ml">
+                        ML
+                    </button>
+                    <button type="button" title="Filter by Cybersecurity" class="portfolio-filter-btn"
+                    data-filter="cybersecurity">
+                      Cybersecurity
+                </button>
+                    </div>
+                    <div class="filter-status">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="row portfolio-items"></div>
+            </div>
+        </section>
+        <!-- ../End Portfolio Section -->
+
+        <!-- start Education && Features Section -->
+        <section class="features-section sec-padding" id="skills">
+            <!-- start skills content -->
+            <div class="container">
+                <div class="skills_category">
+                    <div class="row skills_title">
+                        <div class="section-title">
+                            <h2>My skills</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="skills">
+                            <div class="skills-item">
+                                <span>html</span>
+                                <img src="img/icons/html-svgrepo-com.svg" alt="html" />
+                            </div>
+                            <div class="skills-item">
+                                <span>css</span>
+                                <img src="img/icons/css-svgrepo-com.svg" alt="css" />
+                            </div>
+                            <div class="skills-item">
+                                <span>javascript</span>
+                                <img src="img/icons/js-svgrepo-com.svg" alt="javascript" />
+                            </div>
+                            <div class="skills-item">
+                                <span>bootstrap</span>
+                                <img src="img/icons/bootstrap-4-logo-svgrepo-com.svg" alt="bootstrap" />
+                            </div>
+                            <div class="skills-item">
+                                <span>Github</span>
+                                <img src="img/icons/github-svgrepo-com.svg" alt="github" />
+                            </div>
+                            <div class="skills-item">
+                                <span>git</span>
+                                <img src="img/icons/git-svgrepo-com.svg" alt="git" />
+                            </div>
+                            <div class="skills-item">
+                                <span>Python</span>
+                                <img src="img/icons/python-svgrepo-com.svg" alt="python" />
+                            </div>
+                            <div class="skills-item">
+                                <span>PHP</span>
+                                <img src="img/icons/php-svgrepo-com.svg" alt="php" />
+                            </div>
+                            <div class="skills-item">
+                                <span>Laravel</span>
+                                <img src="img/icons/laravel-svgrepo-com.svg" alt="laravel" />
+                            </div>
+                            <div class="skills-item">
+                                <span>C</span>
+                                <img src="img/icons/c-svgrepo-com.svg" alt="c" />
+                            </div>
+                            <div class="skills-item">
+                                <span>Java</span>
+                                <img src="img/icons/java-svgrepo-com.svg" alt="java" />
+                            </div>
+                            <div class="skills-item">
+                                <span>SQL</span>
+                                <img src="img/icons/sql-svgrepo-com.svg" alt="sql" />
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="spacer-120"></div>
+
+            <!-- start features part -->
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>My Features</h2>
+                    </div>
+                </div>
+                <!-- start features row -->
+                <div class="row">
+                    <div class="features-item">
+                        <i class="fas fa-code fa-2x"></i>
+                        <h3>Clean Code</h3>
+                        <p>
+                            I make the code easy to understand and easy to change.
+                        </p>
+                    </div>
+
+                    <div class="features-item">
+                        <i class="far fa-star fa-2x"></i>
+                        <h3>High Quality</h3>
+                        <p>
+                            You will receive a website with high performance and high
+                            quality.
+                        </p>
+                    </div>
+
+                    <div class="features-item">
+                        <i class="fas fa-mobile-alt fa-2x"></i>
+                        <h3>Responsive Design</h3>
+                        <p>
+                            I create websites that works well on both desktop and mobile platforms.
+                        </p>
+                    </div>
+                </div>
+                <!-- ../end features row  -->
+            </div>
+        </section>
+        <!-- ../End Education && Features Section -->
+
+        <section class="education-section sec-padding" id="education">
+            <div class="row jc-center">
+                <div class="section-title">
+                    <h2>My Education</h2>
+                </div>
+            </div>
+            <!-- start education row -->
+            <div class="container">
+                <div class="row timeline">
+                    <div class="education_item col-xl-6 outset-lg-6">
+                        <div class="education_item-outer">
+                            <span class="education_item-date">Sep-2019 / Jul-2022</span>
+                            <h3 class="education_item-title">Université Libre de Tunis (ULT)
+                            </h3>
+                            <div class="education_item-desc">I've graduated from ULT as a Valedictorian with the Highest Honors: Excellent note with the full praise of the jury. I am officially a holder of a Bachelor degree in Business Intelligence.</div>
+                        </div>
+                    </div>
+                    <div class="education_item col-xl-6 offset-lg-6">
+                        <div class="education_item-outer">
+                            <span class="education_item-date">Sep-2022</span>
+                            <h3 class="education_item-title">Private School of Engineering and Technology (ESPRIT)
+                            </h3>
+                            <div class="education_item-desc">I am a student at Private School of Engineering and Technology pursuing Engineering in Computer Science. </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ../end education row -->
+
+        </section>
+
+        <!-- Start Contact Section -->
+        <section class="contact-section sec-padding min-vh-100" id="contact">
+            <div class="container">
+                <div class="row jc-center">
+                    <div class="section-title">
+                        <h2>Contact me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-content">
+                        <div class="contact-text">
+                            <p>
+                                If you want to contact me about a project or ask me a question,
+                                don’t hesitate to use the form with a valid email so that i can reply to you. <br />Thanks 🤩
+
+
+                            </p>
+                        </div>
+                        <div class="contact-info-item">
+                            <p>Email me on 📩 <span>malek.khelil@esprit.tn</span></p>
+                        </div>
+                        <div class="contact-info-item">
+                            <p class="social-links">
+                                <span>Find me on</span>
+                                <a href="https://github.com/mkh-dev" target="_blank"><i
+                                        class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/malek-khelil/" target="_blank"><i
+                                        class="fab fa-linkedin"></i></a>
+                            </p>
+                        </div>
+                        <button type="button" class="btn toggle-contact-form-btn">
+                            send message
+                        </button>
+                    </div>
+
+                    <!-- Start Conatct Form -->
+                    <div class="contact-form">
+                        <div id="form_alerts" class="form_alerts"></div>
+
+                        <div class="contact-form-inner">
+                            <div class="contact-form-container">
+                                <button type="button" class="close-btn toggle-contact-form-btn"></button>
+
+                                <form name="form-submit" action="https://formspree.io/f/mdojkgeg" method="POST">
+                                    <div class="row">
+                                        <div class="input-group">
+                                            <input type="text" name="name" placeholder="Your Name"
+                                                class="input-control" required />
+
+                                        </div>
+                                        <div class="input-group">
+                                            <input type="email" name="email" placeholder="Your Email"
+                                                class="input-control" required/>
+                                        </div>
+                                        <div class="input-group">
+                                            <input type="text" name="subject" placeholder="Subject"
+                                                class="input-control" required />
+                                        </div>
+                                        <div class="input-group">
+                                            <textarea placeholder="Message" name="message"
+                                                class="input-control" required></textarea>
+                                        </div>
+                                        <div class="input-group">
+                                            <button type="submit" class="btn btn-submit">
+                                                Send
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ../End Conatct Form -->
+                </div>
+            </div>
+        </section>
+        <!-- ../End Contact Section -->
+
+        <!-- Start Portfolio Item Details Popup -->
+        <div class="portfolio-popup">
+            <div class="pp-overlay"></div>
+            <div class="pp-inner">
+                <div class="pp-content">
+                    <div class="pp-header">
+                        <h2 class="pp-counter">7 of 7 ( <span>all</span> )</h2>
+                        <button type="button" title="close" class="close-btn pp-close-btn"></button>
+                        <div class="pp-thumbnail">
+                            <img src="img/portfolio/7.jpg" alt="pp-thumbnail" />
+                        </div>
+                        <h3>main title</h3>
+                    </div>
+                    <div class="pp-body"></div>
+                    <div class="pp-footer">
+                        <div class="pp-footer-left hidden">
+                            <button type="button" title="Prev Work" class="btn pp-prev-btn">
+                                <i class="fas fa-arrow-left"></i>
+                            </button>
+                            <h3>left title</h3>
+                            <img src="img/portfolio/1.jpg" alt="prev work thumbnail" />
+                        </div>
+                        <div class="pp-footer-right hidden">
+                            <button type="button" title="Next Work" class="btn pp-next-btn">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                            <h3>right title</h3>
+                            <img src="img/portfolio/2.jpg" alt="next work thumbnail" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ../End Portfolio Item Details Popup -->
+
+        <!-- popup for preview Img -->
+        <div class="container">
+            <div class="preview_full-img">
+                <img src="img/photo_bg.png" alt="profile full img" />
+                <a class="close-btn close_profile" href="#"></a>
+            </div>
+        </div>
+        <!-- popup for preview Img -->
+
+        <!-- Start cursor -->
+        <div class="cursor_parent">
+            <div class="cursor1"></div>
+            <div class="cursor2"></div>
+        </div>
+        <!-- End cursor -->
+    </div>
+
+    <script src="js/script.js"></script>
+    <script>
+        document.addEventListener("contextmenu", function(event){
+        event.preventDefault();
+        alert('Right Click is Disabled');    
+        }, false);
+        </script>
+
+
+
+</body>
+
+</html>
